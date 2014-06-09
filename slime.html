@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="slime.css">
+
+<style>
+.game-screen { text-align: center; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+
+</head>
+
+<body onload="init();">
+<input id="FPS" value="60">
+<div class="game-screen">
+	<canvas id="canvas" width="800" height="400">
+	No HTML5 in your browser
+	</canvas>
+</div>
+
+<script src="easeljs.min.js"></script>
+<script src="slime.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>

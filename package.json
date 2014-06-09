@@ -1,0 +1,15 @@
+{
+    "name": "slime",
+    "version": "0.0.0",
+    "description": "slime basketball",
+    "main": "slime.js",
+    "scripts": {
+        "test": "slime is working"
+    },
+    "author": "Brady Dowling",
+    "license": "ISC",
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-watch": "~0.6.1"
+    }
+}

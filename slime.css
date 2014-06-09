@@ -1,0 +1,8 @@
+#canvas{
+	width:600px;
+	height:300px;
+	border:2px solid #000000;
+}
+.game-screen{
+	text-align: center;
+}
